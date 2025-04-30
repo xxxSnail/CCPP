@@ -11,6 +11,5 @@ int main(){
     pthread_create(&tid, NULL, thread_fun, NULL);
 
     printf("This is a main thread.\n");
-    sleep(1);
     return 0;
 }
